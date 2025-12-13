@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+runs/
+datasets/
+*.cache
+*.npy
+
+*.mp4
+*.avi
+
+!weights/best.pt
