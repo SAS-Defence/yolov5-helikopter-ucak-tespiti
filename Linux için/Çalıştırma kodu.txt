@@ -1,0 +1,4 @@
+cd ~/yolov5
+source ~/yolov5-env/bin/activate
+
+python track_sort.py --weights ./best_linux.pt --source /home/sas/Desktop/videotest1.mp4 --img 256 --conf-thres 0.45 --iou-thres 0.25 --device cpu --show
